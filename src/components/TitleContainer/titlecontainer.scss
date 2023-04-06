@@ -1,0 +1,14 @@
+.homeTitleContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    color: white;
+    width: 94%;
+    >.showAll{
+        &:hover{
+            text-decoration-line: underline;
+            cursor: pointer;
+        }
+    }
+     
+}

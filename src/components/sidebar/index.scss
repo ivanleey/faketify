@@ -1,0 +1,77 @@
+.sidebarContainer{
+    height: 100%;
+    background-color: black;
+    padding: 24px 16px;
+    color: white;
+    font-size: 14px;
+    // position: relative;
+    box-sizing: border-box;
+    
+    
+}
+
+.navItem{
+    display: flex;
+    justify-content: flex-start;
+    
+    width: 194px;
+    height: 40px;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+
+.itemIcon{
+    margin-right: 10px;
+    >img{
+        width: 20px;
+        height: 20px;
+    }
+    
+}
+
+.itemName{
+    font-size: 14px;
+    
+}
+
+.itemDeactive{
+    color:#B3B3B3
+}
+
+.language{
+    width: 96px;
+    height: 32px;
+    border-radius: 30px;
+    border:1px solid white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+    color:#FFFFFF;
+    cursor:pointer
+
+
+}
+
+.bottom-part{
+    width: 242px;
+    height: 248px;
+    position: absolute;
+    bottom: 0;
+    color:#A7A7A7
+}
+
+.first-line{
+   display: flex;
+    font-size: 12px;
+    height: 22px;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+    >div:nth-child(2){
+        margin-left: 15px;
+    }
+}

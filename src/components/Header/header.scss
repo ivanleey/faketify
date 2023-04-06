@@ -1,0 +1,70 @@
+.forward,.back{
+    width: 32px;
+    height: 32px;
+    // border: 4px solid transparent;
+    border-radius: 50%;
+    background-color: #030303;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.fb-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-items{
+    display: flex;
+    justify-content: space-between;
+    color: #a7a7a7;
+    align-items: center;
+    padding-right: 20px;
+    >.signUp{
+        margin-right: 20px;
+        line-height: 55px;
+    }
+    >.login{
+        width: 45px;
+        height: 32px;
+        padding: 8px 32px;
+        background-color: white;
+        border-radius: 25px;
+        line-height: 33px;
+        color: black;
+    }
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    // background-color: rgba(83,83,83);
+    background-color: #090909;
+    align-items: center;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    opacity: 0.95;
+    // position: fixed;
+    // width: calc(100% - 242px);
+    
+    .searchInput{
+       margin-left: 20px;
+       width: 268px;
+       height: 28px;
+       padding: 6px 48px;
+       border-radius: 30px;
+       border: none;
+       outline: none;
+    }
+
+   
+    
+    
+    
+}

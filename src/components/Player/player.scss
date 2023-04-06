@@ -1,0 +1,101 @@
+.audioPlayerContainer{
+    display: flex;
+    width: calc(100% - 264px);
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #161616;
+    color: white;
+    z-index: 1;
+    opacity: 0.98;
+    // margin-right: calc(100% - 100vw);
+    overflow: hidden;
+    // position: absolute;
+    position: fixed;
+    bottom: 0;
+
+    
+    align-items: center;
+    .playerAvatarAndName{
+        display: flex;
+        align-items: center;
+        width: 20%;
+        .nameAndArtist{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 10px;
+            align-items: flex-start;
+
+        }
+    }
+    .playerControlBar{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        .playerProgressBar{
+            display: flex;
+            align-items: center;
+        }
+        .playControlButtons{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .playControlButtonPrevious,.playControlButtonPlay,.playControlButtonNext{
+                cursor: pointer;
+                &:hover{
+                    transform: scale(1.1);
+                    transition:0.4s;
+                    color: #1cdf63;
+                }
+            }
+            
+            
+        }
+    }
+    .playerFunctions{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+        div:nth-child(n){
+            margin-left: 10px;
+        }
+        .volumeBar{
+            position: relative;
+            bottom: 8px;
+            cursor: pointer;
+        }
+        .lyricIcon{
+            position: relative;
+            top:2px;
+            cursor: pointer;
+        }
+    }
+    input[type="range"].progressBar{
+        -webkit-appearance:none;
+        // border-radius:15px;
+        height: 2px;
+        width: 100%;
+        background-color: #535353;
+        cursor: pointer;
+        
+    }
+    input[type="range"]::-webkit-slider-thumb{
+        -webkit-appearance:none;
+        height: 6px;
+        width: 6px;
+        border-radius: 50%;
+        background-color: #1cdf63;
+    }
+
+    input[type="range"].volumeBar{
+        -webkit-appearance:none;
+        // border-radius:15px;
+        height: 2px;
+        width: 60%;
+        background-color: #535353;
+        
+        
+    }
+    
+}
